@@ -37,7 +37,7 @@
 	- Обеспечить безопасность (аутентификация, авторизация)
 ]
 == Технологический стек
-#align(horizon)[
+#align(center + horizon)[
 	#grid(
 		columns: (1fr, 1fr, 1fr),
 		image("imgs/dotnet.png"),
@@ -51,5 +51,23 @@
 #align(center + horizon)[
 	#image("imgs/ProjectStruct.png")
 ]
+
+== Аутентификация
+
+#align(center + horizon)[
+	#grid(
+		columns: (1fr, 0.1fr, 1fr),
+		[Пример отправленного JSON при входе в аккаунт],
+		[$space$],
+		[Пример полученного JSON при входе в аккаунт],
+		[$space$],
+		[$space$],
+		[$space$],
+		image("imgs/LoginInput.png"),
+		[$space$],
+		image("imgs/LoginOutput.png"),
+	)
+]
+
 
 = Спасибо за внимание
