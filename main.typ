@@ -63,9 +63,9 @@
 		[$space$],
 		[$space$],
 		[$space$],
-		image("imgs/LoginInput.png"),
+		image("imgs/LoginInput.png", width: 105%),
 		[$space$],
-		image("imgs/LoginOutput.png"),
+		image("imgs/LoginOutput.png", width: 110%),
 	)
 ]
 
