@@ -122,4 +122,43 @@
 	)
 ]
 
+== Начисления очков за выполненный запрос.
+
+#align(center + horizon)[
+	#grid(
+		columns: ( 1fr),
+		[Пример отправленного списка пользователей],
+		[$space$],
+		// image("imgs/AfterUnassignMe.png", width: 100%),
+	)
+]
+
+== Начисления очков за выполненный запрос.
+
+#align(center + horizon)[
+	#grid(
+		columns: (1fr, 0.1fr, 1fr),
+		[Пользователь до начисления очков],
+		[$space$],
+		[Пользователь после начисления очков],
+		[$space$],
+		[$space$],
+		[$space$],
+		// image("imgs/LoginInput.png", width: 105%),
+		[$space$],
+		// image("imgs/LoginOutput.png", width: 110%),
+	)
+]
+
+== Начисления очков за выполненный запрос.
+
+#align(center + horizon)[
+	#grid(
+		columns: ( 1fr),
+		[Пример отправленного списка пользователей],
+		[$space$],
+		// image("imgs/AfterUnassignMe.png", width: 100%),
+	)
+]
+
 = Спасибо за внимание
