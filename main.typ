@@ -110,4 +110,16 @@
 		image("imgs/AfterAssignMe.png", width: 100%),
 	)
 ]
+
+== Возможность отказа от запроса.
+
+#align(center + horizon)[
+	#grid(
+		columns: ( 1fr),
+		[Запрос после отказа от запроса],
+		[$space$],
+		image("imgs/AfterUnassignMe.png", width: 100%),
+	)
+]
+
 = Спасибо за внимание
