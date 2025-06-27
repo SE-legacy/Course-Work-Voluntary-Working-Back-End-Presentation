@@ -69,5 +69,21 @@
 	)
 ]
 
+== Реализация ленты запросов.
+
+#align(center + horizon)[
+	#grid(
+		columns: (1fr, 0.1fr, 1fr),
+		[Пример ленты пользователя],
+		[$space$],
+		[Пример ленты администратора],
+		[$space$],
+		[$space$],
+		[$space$],
+		image("imgs/PublicFeed.png", width: 110%),
+		[$space$],
+		image("imgs/AdminFeed.png", width: 105%),
+	)
+]
 
 = Спасибо за внимание
