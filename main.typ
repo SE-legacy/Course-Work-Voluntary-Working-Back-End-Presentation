@@ -37,6 +37,18 @@
 	- Обеспечить безопасность (аутентификация, авторизация)
 ]
 == Стек
-text
+#align(horizon)[
+	#grid(
+		columns: (1fr, 1fr, 1fr),
+		image("imgs/dotnet.png"),
+		image("imgs/postgresql.png"),
+		image("imgs/kotlin.jpg"),
+	)
+]
+
+== Архетитура серверной части
+
+#align(center + horizon)[
+]
 
 = Спасибо за внимание
