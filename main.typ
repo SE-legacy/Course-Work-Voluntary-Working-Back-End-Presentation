@@ -73,16 +73,19 @@
 
 #align(center + horizon)[
 	#grid(
-		columns: (1fr, 0.1fr, 1fr),
+		columns: (1fr),
 		[Пример ленты пользователя],
 		[$space$],
+		image("imgs/PublicFeed.png", width: 71%),
+	)
+]
+== Реализация ленты запросов.
+
+#align(center + horizon)[
+	#grid(
 		[Пример ленты администратора],
 		[$space$],
-		[$space$],
-		[$space$],
-		image("imgs/PublicFeed.png", width: 110%),
-		[$space$],
-		image("imgs/AdminFeed.png", width: 105%),
+		image("imgs/AdminFeed.png", width: 75%),
 	)
 ]
 
@@ -93,7 +96,7 @@
 		columns: (1fr),
 		[Запрос до записи],
 		[$space$],
-		image("imgs/AfterAssignMe.png", width: 100%),
+		image("imgs/BeforeAssignMe.png", width: 100%),
 	)
 ]
 
