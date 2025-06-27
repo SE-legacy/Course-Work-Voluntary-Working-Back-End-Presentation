@@ -86,4 +86,25 @@
 	)
 ]
 
+== Возможность записаться на запрос.
+
+#align(center + horizon)[
+	#grid(
+		columns: (1fr),
+		[Запрос до записи],
+		[$space$],
+		image("imgs/AfterAssignMe.png", width: 100%),
+	)
+]
+
+== Возможность записаться на запрос.
+
+#align(center + horizon)[
+	#grid(
+		columns: ( 1fr),
+		[Запрос после записи],
+		[$space$],
+		image("imgs/AfterAssignMe.png", width: 100%),
+	)
+]
 = Спасибо за внимание
