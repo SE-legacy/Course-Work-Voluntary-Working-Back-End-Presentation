@@ -39,10 +39,9 @@
 == Технологический стек
 #align(center + horizon)[
 	#grid(
-		columns: (1fr, 1fr, 1fr),
+		columns: (1fr, 1fr),
+		image("imgs/csharp.png"),
 		image("imgs/dotnet.png"),
-		image("imgs/postgresql.png"),
-		image("imgs/kotlin.jpg"),
 	)
 ]
 
