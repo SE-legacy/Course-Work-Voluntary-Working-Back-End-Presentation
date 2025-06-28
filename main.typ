@@ -51,22 +51,22 @@
 	#image("imgs/ProjectStruct.png")
 ]
 
-== Аутентификация
-
-#align(center + horizon)[
-	#grid(
-		columns: (1fr, 0.1fr, 1fr),
-		[Пример отправленного JSON при входе в аккаунт],
-		[$space$],
-		[Пример полученного JSON при входе в аккаунт],
-		[$space$],
-		[$space$],
-		[$space$],
-		image("imgs/LoginInput.png", width: 105%),
-		[$space$],
-		image("imgs/LoginOutput.png", width: 110%),
-	)
-]
+// == Аутентификация
+//
+// #align(center + horizon)[
+// 	#grid(
+// 		columns: (1fr, 0.1fr, 1fr),
+// 		[Пример отправленного JSON при входе в аккаунт],
+// 		[$space$],
+// 		[Пример полученного JSON при входе в аккаунт],
+// 		[$space$],
+// 		[$space$],
+// 		[$space$],
+// 		image("imgs/LoginInput.png", width: 105%),
+// 		[$space$],
+// 		image("imgs/LoginOutput.png", width: 110%),
+// 	)
+// ]
 
 == Реализация ленты запросов.
 
@@ -128,7 +128,7 @@
 		columns: ( 1fr),
 		[Пример отправленного списка пользователей],
 		[$space$],
-		// image("imgs/AfterUnassignMe.png", width: 100%),
+		image("imgs/ListInputUsers.png"),
 	)
 ]
 
@@ -143,9 +143,9 @@
 		[$space$],
 		[$space$],
 		[$space$],
-		// image("imgs/LoginInput.png", width: 105%),
+		image("imgs/BeforeGetPoints.png", width: 105%),
 		[$space$],
-		// image("imgs/LoginOutput.png", width: 110%),
+		image("imgs/AfterGetPoints.png", width: 105%),
 	)
 ]
 
@@ -154,9 +154,9 @@
 #align(center + horizon)[
 	#grid(
 		columns: ( 1fr),
-		[Пример отправленного списка пользователей],
+		[Пример выполненного запроса],
 		[$space$],
-		// image("imgs/AfterUnassignMe.png", width: 100%),
+		image("imgs/RequestAfterMarkAsCompleted.png", width: 80%),
 	)
 ]
 
