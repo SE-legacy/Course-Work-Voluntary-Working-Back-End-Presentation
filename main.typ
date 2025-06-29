@@ -38,6 +38,7 @@
 
 	- Обеспечить безопасность (аутентификация, авторизация)
 ]
+
 == Технологический стек
 #align(center + horizon)[
 	#grid(
@@ -54,23 +55,6 @@
 ]
 
 = Реализация
-
-== Вход в аккаунт
-
-#align(center + horizon)[
-	#grid(
-		columns: (1fr, 0.1fr, 1fr),
-		[Пример отправленного JSON при входе в аккаунт],
-		[$space$],
-		[Пример полученного JSON при входе в аккаунт],
-		[$space$],
-		[$space$],
-		[$space$],
-		image("imgs/LoginInput.png", width: 105%),
-		[$space$],
-		image("imgs/LoginOutput.png", width: 110%),
-	)
-]
 
 == Ленты запросов.
 
